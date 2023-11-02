@@ -68,7 +68,7 @@ const LoginPages = () => {
               onChange={handleChange}
               onBlur={handleBlur}
               value={values.email}
-              color="success"
+              color="secondary"
             />
 
             <TextField
@@ -81,7 +81,7 @@ const LoginPages = () => {
               onChange={handleChange}
               onBlur={handleBlur}
               value={values.password}
-              color="success"
+              color="secondary"
             />
             <Box
               sx={{
@@ -94,7 +94,7 @@ const LoginPages = () => {
                 variant="contained"
                 margin="normal"
                 type="submit"
-                color="success"
+                color="secondary"
                 loading={isLoading}
                 loadingPosition="end"
                 endIcon={<SendIcon />}

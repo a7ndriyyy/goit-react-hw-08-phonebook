@@ -30,7 +30,7 @@ export const Contact = ({ id, name, number }) => {
           title={`Delete ${name}`}
           loading={deleteInfo.isLoading}
           variant="outlined"
-          color="success"
+          color="secondary"
         >
           <DeleteIcon />
         </LoadingButton>

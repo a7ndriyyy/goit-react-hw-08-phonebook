@@ -83,7 +83,7 @@ export const ContactForm = () => {
                 variant="contained"
                 margin="normal"
                 type="submit"
-                color="success"
+                color="secondary"
                 loading={isLoading}
                 loadingPosition="end"
                 endIcon={<SaveIco />}
