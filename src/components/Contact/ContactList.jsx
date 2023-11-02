@@ -1,11 +1,11 @@
 import { useSelector } from 'react-redux';
-import { getFilter } from 'redux/selectors';
-import { Contact } from 'components/Contacts/Contact';
-import { useGetContactsQuery } from 'redux/api';
+import { getFilter } from '../redux/selector';
+import { Contact } from '../Contact/Contact';
+import { useGetContactsQuery } from '../redux/api';
 import { styled } from '@mui/material/styles';
 import List from '@mui/material/List';
-import { Filter } from 'components/Filter/Filter';
-import { Loader } from 'components/Loader';
+import { Filter } from '../Filter/Filter';
+import { Loader } from '../Loader';
 import { useEffect } from 'react';
 import toast from 'react-hot-toast';
 import Empty from './Empty';

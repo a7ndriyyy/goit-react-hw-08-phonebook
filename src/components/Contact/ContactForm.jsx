@@ -5,8 +5,8 @@ import SaveIco from '@mui/icons-material/Save';
 import { LoadingButton } from '@mui/lab';
 import { Box, TextField } from '@mui/material';
 
-import { setOpenModal } from 'redux/modalSlice';
-import { useAddContactMutation, useGetContactsQuery } from 'redux/api';
+import { setOpenModal } from '../redux/modalSlice';
+import { useAddContactMutation, useGetContactsQuery } from '../redux/api';
 import { Formik } from 'formik';
 
 export const ContactForm = () => {

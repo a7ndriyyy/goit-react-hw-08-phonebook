@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { getUser } from 'redux/selectors';
+import { getUser } from '../redux/selector';
 
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -17,7 +17,7 @@ import MenuItem from '@mui/material/MenuItem';
 import ContactsIcon from '@mui/icons-material/Contacts';
 
 import UserMenu from 'components/AppBar/UserMenu';
-import { setOpenModal } from 'redux/modalSlice';
+import { setOpenModal } from '../redux/modalSlice';
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = useState(null);

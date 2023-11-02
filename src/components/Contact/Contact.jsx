@@ -1,11 +1,11 @@
-import { useDeleteContactMutation } from 'redux/api';
+import { useDeleteContactMutation } from '../redux/api';
 
 import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
 import Avatar from '@mui/material/Avatar';
 import DeleteIcon from '@mui/icons-material/Delete';
-import LoadingButton from '@mui/lab/LoadingButton';
+import LoadingButton from '@mui/lab/LoadingButton/LoadingButton';
 import PersonIcon from '@mui/icons-material/Person';
 import { Link, Paper } from '@mui/material';
 

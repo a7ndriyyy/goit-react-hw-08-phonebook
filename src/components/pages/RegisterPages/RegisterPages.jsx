@@ -3,8 +3,8 @@ import { Box, TextField, Typography } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 import { Formik } from 'formik';
 import React from 'react';
-import { useAddUserMutation } from 'redux/api';
-import { setCredentials } from 'redux/authSlice';
+import { useAddUserMutation } from '../../redux/api';
+import { setCredentials } from '../../redux/authSlice';
 import { useDispatch } from 'react-redux';
 import toast from 'react-hot-toast';
 

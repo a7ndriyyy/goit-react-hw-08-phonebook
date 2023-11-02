@@ -1,10 +1,10 @@
 import { Dialog, DialogContent, DialogTitle, IconButton } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import { ContactForm } from 'components/Contacts/ContactForm';
+import { ContactForm } from '../Contact/ContactForm';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setOpenModal } from 'redux/modalSlice';
-import { getOpenModal } from 'redux/selectors';
+import { setOpenModal } from '../redux/modalSlice';
+import { getOpenModal } from '../redux/selector';
 
 const Modal = () => {
   const openModal = useSelector(getOpenModal);
