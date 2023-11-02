@@ -47,7 +47,7 @@ export const Contact = ({ id, name, number }) => {
           <Link
             href={'tel:' + number}
             underline="hover"
-            sx={{ color: 'green' }}
+            sx={{ color: 'black' }}
           >
             {number}
           </Link>

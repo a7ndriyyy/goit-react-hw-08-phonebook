@@ -35,7 +35,7 @@ const LoginPages = () => {
       <Typography
         variant="h4"
         component="h1"
-        sx={{ marginTop: '16px', color: 'green' }}
+        sx={{ marginTop: '16px', color: 'black' }}
       >
         Login
       </Typography>
@@ -56,14 +56,7 @@ const LoginPages = () => {
           handleSubmit(values);
         }}
       >
-        {({
-          values,
-          handleChange,
-          handleBlur,
-          handleSubmit,
-
-          /* and other goodies */
-        }) => (
+        {({ values, handleChange, handleBlur, handleSubmit }) => (
           <form onSubmit={handleSubmit}>
             <TextField
               variant="outlined"
@@ -112,10 +105,10 @@ const LoginPages = () => {
           </form>
         )}
       </Formik>
-      <Box sx={{ textAlign: 'center', marginTop: '24px', color: 'green' }}>
+      <Box sx={{ textAlign: 'center', marginTop: '24px', color: 'black' }}>
         <Typography variant="h6">Don't have an acount?</Typography>
 
-        <Link component={NavLink} to="/register" sx={{ color: 'green' }}>
+        <Link component={NavLink} to="/register" sx={{ color: 'black' }}>
           Registration here
         </Link>
       </Box>

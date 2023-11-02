@@ -39,7 +39,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" color="success">
+    <AppBar position="static" color="success" baground-color="black">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <ContactsIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -122,7 +122,7 @@ function ResponsiveAppBar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: 'black',
               textDecoration: 'none',
             }}
           >

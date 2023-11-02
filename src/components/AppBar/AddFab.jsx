@@ -19,13 +19,13 @@ const AddFab = () => {
         bottom: 16,
         right: 16,
         color: 'common.white',
-        bgcolor: 'green',
+        bgcolor: 'black',
         '&:hover': {
-          bgcolor: 'darkGreen',
+          bgcolor: 'darkBlack',
         },
       }}
       aria-label="Add contacts"
-      color="green"
+      color="black"
       onClick={handleOpenModal}
     >
       <AddIcon />

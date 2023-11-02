@@ -34,7 +34,7 @@ const RegisterPages = () => {
       <Typography
         variant="h4"
         component="h1"
-        sx={{ marginTop: '16px', color: 'green' }}
+        sx={{ marginTop: '16px', color: 'black' }}
       >
         Register
       </Typography>

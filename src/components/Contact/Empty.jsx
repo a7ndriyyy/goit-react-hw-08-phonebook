@@ -3,7 +3,7 @@ import React from 'react';
 
 const Empty = () => {
   return (
-    <Box sx={{ textAlign: 'center', marginTop: '24px', color: 'green' }}>
+    <Box sx={{ textAlign: 'center', marginTop: '24px', color: 'black' }}>
       <Typography variant="h6">The contact list is empty! </Typography>
     </Box>
   );
